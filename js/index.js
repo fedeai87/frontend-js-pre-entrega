@@ -18,3 +18,14 @@ console.log("Ingresaste: ", entradaInput);
 
 //Simil f-string para interpolar variables
 alert(`Ingresaste: ${entradaInput}`);
+
+let primerNumero = prompt("Ingrese un número: ");
+let segundoNumero = prompt ("Ingrese otro número: ");
+primerNumero = parseFloat(primerNumero);
+segundoNumero = parseFloat(segundoNumero);
+console.log("Suma: " + (primerNumero + segundoNumero));
+console.log("Resta: " + (primerNumero - segundoNumero));
+console.log("Multiplicación: " + (primerNumero * segundoNumero));
+console.log("División: " + (primerNumero / segundoNumero));
+console.log("Módulo: " + (primerNumero % segundoNumero));
+isNaN(primerNumero, segundoNumero);
